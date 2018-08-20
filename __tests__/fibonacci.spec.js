@@ -8,4 +8,10 @@ describe('fibonacci', () => {
         });
     });
 
+    describe('when index is 1', () => {
+        it('should return 1', () => {
+            expect(fibonacci(1)).toEqual(1);
+        });
+    });
+
 });
